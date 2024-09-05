@@ -1,0 +1,178 @@
+.dynamic-car-info-img {
+    position: relative;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background: rgba(53, 99, 233, 1);
+    border-radius: 10px;
+    padding: 20px 30px;
+}
+
+.dynamic-car-info-img h2 {
+    width: 372px;
+    font-family: "Plus Jakarta Sans" sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.dynamic-car-info-img p {
+    width: 284px;
+    font-family: "Plus Jakarta Sans" sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+}
+
+.star {
+    width: 20px;
+    height: 20px;
+    margin-right: 2px;
+    color: gold;
+}
+
+.dynamic-car-info-img img {
+    width: 100%;
+    height: auto;
+}
+
+.overflow-x-auto {
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.overflow-x-auto img {
+    display: inline-block;
+}
+
+.dynamic-car-info-images {
+    overflow-x: auto;
+    display: flex;
+    gap: 10px;
+    white-space: nowrap;
+}
+
+.dynamic-car-info-images::-webkit-scrollbar {
+    display: none;
+}
+
+/* dynamic-car-info */
+/* h2 */
+.dynamic-car-info-title {
+    font-family: "Plus Jakarta Sans" sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.03em;
+    color: rgba(26, 32, 44, 1);
+}
+
+/* p */
+.dynamic-car-info-text {
+    font-family: "Plus Jakarta Sans" sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+    color: rgba(89, 103, 128, 1);
+}
+
+/* dynamic-car-info-details */
+
+.dynamic-car-info-details1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.dynamic-car-info-details1 h3 {
+    font-family: "Plus Jakarta Sans" sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    color: rgba(144, 163, 191, 1);
+    text-align: end;
+}
+
+.dynamic-car-info-details2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.dynamic-car-info-details2 h3 {
+    font-family: "Plus Jakarta Sans" sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    color: rgba(89, 103, 128, 1);
+    text-align: end;
+}
+
+.dynamic-car-info-price {
+    font-family: "Plus Jakarta Sans" sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 35.28px;
+    color: rgba(26, 32, 44, 1);
+}
+
+.dynamic-car-info-price span {
+    font-family: "Plus Jakarta Sans" sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 40.32px;
+    color: rgb(170, 165, 165);
+}
+
+/* resviews */
+
+.dynamic-car-reviews-title {
+    font-family: "Plus Jakarta Sans" sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25.2px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: rgba(26, 32, 44, 1);
+}
+
+.reviews-user-name {
+    font-family: "Plus Jakarta Sans" sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: -0.03em;
+}
+
+.reviews-user-title {
+    font-family: "Plus Jakarta Sans" sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: -0.02em;
+    color: rgba(144, 163, 191, 1);
+}
+
+.reviews-user-text {
+    font-family: " Plus Jakarta Sans" sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.02em;
+    color: rgba(89, 103, 128, 1);
+}

@@ -1,0 +1,141 @@
+.home {
+    padding: 40px 0px;
+}
+
+.best-car1-info {
+    position: relative;
+    width: 640px;
+    height: 360px;
+    border-radius: 10px;
+    background: rgba(84, 166, 255, 1);
+}
+
+.best-car2-info {
+    position: relative;
+    width: 640px;
+    height: 360px;
+    border-radius: 10px;
+    background: rgba(53, 99, 233, 1);
+}
+
+.best-car {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+}
+
+.best-car-title {
+    width: 272px;
+    font-family: "Plus Jakarta Sans" sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: -0.03em;
+    color: rgba(255, 255, 255, 1);
+}
+
+.best-car-text {
+    width: 284px;
+    font-family: "Plus Jakarta Sans" sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: rgba(255, 255, 255, 1);
+}
+
+.best-car-btn {
+    width: 120px;
+    height: 44px;
+    padding: 0px 20px 0px 20px;
+    border-radius: 4px;
+    background: rgba(53, 99, 233, 1);
+    cursor: pointer;
+
+    /* text-design */
+    font-family: "Plus Jakarta Sans" sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: rgba(255, 255, 255, 1);
+}
+
+.best-car-img {
+    position: absolute;
+    top: 185px;
+    left: 150px;
+}
+
+.best-car2-btn {
+    width: 120px;
+    height: 44px;
+    padding: 0px 20px 0px 20px;
+    border-radius: 4px;
+    background: rgba(84, 166, 255, 1);
+
+    cursor: pointer;
+
+    /* text-design */
+    font-family: "Plus Jakarta Sans" sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: rgba(255, 255, 255, 1);
+}
+
+.best-car2-img {
+    position: absolute;
+    top: 150px;
+    left: 180px;
+    transform: scalex(-1);
+}
+
+.pickup {
+    width: 582px;
+    height: 132px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.pickup-title {
+    font-family: "Plus Jakarta Sans" sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: rgba(26, 32, 44, 1);
+}
+
+.change {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    background: rgba(53, 99, 233, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.dropOff {
+    width: 582px;
+    height: 132px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
